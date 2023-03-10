@@ -1,0 +1,115 @@
+[
+    {
+      "id": 1,
+      "name": "Air Filter",
+      "description": "High-performance air filter for improved engine performance.",
+      "price": 25.99,
+      "Category": "Parts",
+      "image": "https://example.com/air-filter.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chain",
+      "description": "Heavy-duty chain for increased durability and performance.",
+      "price": 59.99,
+      "Category": "Parts",
+      "image": "https://example.com/chain.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Brake Pads",
+      "description": "Premium brake pads for improved stopping power.",
+      "price": 39.99,
+      "Category": "Parts",
+      "image": "https://example.com/brake-pads.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Spark Plug",
+      "description": "High-quality spark plug for improved ignition and engine performance.",
+      "price": 7.99,
+      "Category": "Parts",
+      "image": "https://example.com/spark-plug.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Clutch Cable",
+      "description": "Heavy-duty clutch cable for improved clutch performance.",
+      "price": 19.99,
+      "Category": "Parts",
+      "image": "https://example.com/clutch-cable.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Fork Seals",
+      "description": "Durable fork seals for improved suspension performance.",
+      "price": 29.99,
+      "Category": "Parts",
+      "image": "https://example.com/fork-seals.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Handlebars",
+      "description": "High-quality handlebars for improved control and comfort.",
+      "price": 79.99,
+      "Category": "Parts",
+      "image": "https://example.com/handlebars.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Tires",
+      "description": "High-performance tires for improved traction and handling.",
+      "price": 99.99,
+      "Category": "Parts",
+      "image": "https://example.com/tires.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Sprockets",
+      "description": "Durable sprockets for improved power transfer and performance.",
+      "price": 49.99,
+      "Category": "Parts",
+      "image": "https://example.com/sprockets.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Exhaust",
+      "description": "Performance exhaust system for improved engine output and sound.",
+      "price": 199.99,
+      "Category": "Parts",
+      "image": "https://example.com/exhaust.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Enduro 250",
+      "description": "Enduro bikes are designed for off-road racing and are capable of handling various terrains, including rough and rocky trails, steep climbs, and descents.",
+      "price": 3250,
+      "Category": "Bikes",
+      "image": "https://example.com/exhaust.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Enduro 550",
+      "description": "Enduro bikes are designed for off-road racing and are capable of handling various terrains, including rough and rocky trails, steep climbs, and descents.",
+      "price": 7600,
+      "Category": "Bikes",
+      "image": "https://example.com/exhaust.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Moto 300",
+      "description": "Motocross bikes are high-performance motorcycles designed for off-road racing on closed courses with jumps, berms, and other obstacles.",
+      "price": 4295,
+      "Category": "Bikes",
+      "image": "https://example.com/exhaust.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Moto 450",
+      "description": "Motocross bikes are high-performance motorcycles designed for off-road racing on closed courses with jumps, berms, and other obstacles.",
+      "price": 8995,
+      "Category": "Bikes",
+      "image": "https://example.com/exhaust.jpg"
+    }
+  ]
+  
