@@ -5,8 +5,7 @@ import './Scroll.css'
 
 export default function Card2(props){
     const outerStyle = classNames(
-        'w-xs h-xs',
-        'bg-light-50',
+        'w-xs h-xs'
 
     )
     const innerStyle = classNames(
@@ -42,8 +41,9 @@ export default function Card2(props){
             </div>
             <img src={props.logo} alt="logo" className={logoStyle}/>
             <div className={innerStyle}>
-                <p className={dateStyle}>{props.date}</p>
-                <p className={descStyle}>{props.desc}</p>
+                <p className={descStyle}>{props.name}</p>
+                <p className={dateStyle}>{props.phone}</p>
+                <p className={dateStyle}>{props.email}</p>
             </div>
         </div>
     )
