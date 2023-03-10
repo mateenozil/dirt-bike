@@ -1,4 +1,7 @@
 import { useNavigate } from "react-router-dom"
+import BikesData from '../Data/bikes.json'
+import Card from "../Components/Card/Card"
+import CardPanel from "../Components/CardPanel/CardPanel"
 
 function Home(){
     return(
@@ -26,7 +29,7 @@ function Hero() {
 			</div>
 			<div className="relative z-10">
 				<div className="container mx-auto px-4 py-32">
-					<h1	h1 className="text-5xl font-bold text-white mb-6">
+					<h1 className="text-5xl font-bold text-white mb-6">
 						Dirt Bikes <br /> For Thrill-Seekers
 					</h1>
 					<p className="text-2xl text-gray-200 mb-8">
@@ -42,9 +45,22 @@ function Hero() {
 }
 
 function Promo(){
+	const data = BikesData
     return(
-        <div>
-            <p className="">Top Seller</p>
+        <div className='py-8 space-y-8 mx-auto text-center'>
+            <p className="text-3xl text-gray-600 font-bold">Top Seller</p>
+			<CardPanel num={4}>
+				{data.map(
+					product =>
+					<Card
+					key={product.id}
+					image={product.image}
+					name={product.name}
+					description={product.description}
+					price={product.price}
+				/>
+				)}
+			</CardPanel>
         </div>
     )
 }

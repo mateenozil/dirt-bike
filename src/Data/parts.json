@@ -78,38 +78,6 @@
       "price": 199.99,
       "Category": "Parts",
       "image": "https://example.com/exhaust.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Enduro 250",
-      "description": "Enduro bikes are designed for off-road racing and are capable of handling various terrains, including rough and rocky trails, steep climbs, and descents.",
-      "price": 3250,
-      "Category": "Bikes",
-      "image": "bike1.png"
-    },
-    {
-      "id": 12,
-      "name": "Enduro 550",
-      "description": "Enduro bikes are designed for off-road racing and are capable of handling various terrains, including rough and rocky trails, steep climbs, and descents.",
-      "price": 7600,
-      "Category": "Bikes",
-      "image": "bike2.avif"
-    },
-    {
-      "id": 13,
-      "name": "Moto 300",
-      "description": "Motocross bikes are high-performance motorcycles designed for off-road racing on closed courses with jumps, berms, and other obstacles.",
-      "price": 4295,
-      "Category": "Bikes",
-      "image": "bike3.avif"
-    },
-    {
-      "id": 14,
-      "name": "Moto 450",
-      "description": "Motocross bikes are high-performance motorcycles designed for off-road racing on closed courses with jumps, berms, and other obstacles.",
-      "price": 8995,
-      "Category": "Bikes",
-      "image": "bike4.webp"
     }
   ]
   

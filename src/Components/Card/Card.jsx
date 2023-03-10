@@ -1,12 +1,11 @@
 import classNames from "classnames"
-import { FaInstagram } from "react-icons/fa"
 
 export default function Card(props){
     const outerStyle = classNames(
-        'w-xs h-md',
+        'py-8 w-xs h-md',
         'bg-light-50',
         'rounded-2xl',
-        'shadow-xl shadow-gray-800'
+        'shadow-sm shadow-gray-500'
     )
     const innerStyle = classNames(
         'py-8 px-8',
@@ -17,31 +16,29 @@ export default function Card(props){
     const logoStyle = classNames(
         'rounded-t-2xl',
         'w-full h-1/2',
-        'object-cover'
+        'object-contain'
     )
     const titleStyle = classNames(
         'text-2xl font-semibold tracking-wide'
     )
     const descStyle = classNames(
-        'text-lg', 'h-20', 'overflow-y-auto',
+        'text-2xl','h-10', 'overflow-y-auto',
     )
     const iconStyle = classNames(
         'flex justify-between'
     )
-    const iconStyle2 = classNames(
-        'w-8 h-8'
+    const buttonStyle = classNames(
+        'bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-6 rounded-full'
     )
     return(
         <div className={outerStyle}>
-            <img src={props.logo} alt="logo" className={logoStyle}/>
+            <img src={props.image} alt="logo" className={logoStyle}/>
             <div className={innerStyle}>
                 <div className={iconStyle}>
-                    <h1 className={titleStyle}>{props.title}</h1>
-                    <a href={props.link}>
-                        <FaInstagram className={iconStyle2}/>
-                    </a>
+                    <h1 className={titleStyle}>{props.name}</h1>
                 </div>
-                <p className={descStyle}>{props.desc}</p>
+                <p className={descStyle}>${props.price}</p>
+                <button className={buttonStyle}>Add to cart</button>
             </div>
         </div>
     )
