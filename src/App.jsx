@@ -6,7 +6,6 @@ import { Routes, Route } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
 import Home from './Pages/Home';
 import Product from './Pages/Product';
-import Cart from './Pages/Cart'
 import NotFound from './Pages/NotFound';
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
           <GrUser/>
         </Menu>
         <Menu click={()=>{
-          navigate("cart")
+          alert("Cart page unavailable")
         }}>
           <span>My Cart</span>
           <GrCart/>
@@ -32,7 +31,6 @@ function App() {
       {/*route*/}
       <Routes>
         <Route path='/product' element={<Product/>}/>
-        <Route path='/cart' element={<Cart/>}/>
         <Route path='/home' element={<Home/>}/>
         <Route path='/' element={<Home/>}/>
         <Route path="*" element={<NotFound/>}/>

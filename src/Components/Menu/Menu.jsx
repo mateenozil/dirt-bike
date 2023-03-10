@@ -6,7 +6,8 @@ function Menu(props) {
         'flex justify-end',
         'lg:text-xl sm:text-sm no-underline',
         'space-x-2',
-        'md:(border-2 rounded-xl border-gray-500)'
+        'md:(border-2 rounded-xl border-gray-500)',
+        'cursor-pointer'
     )
     return (
         <div onClick={props.click} className={style}>
