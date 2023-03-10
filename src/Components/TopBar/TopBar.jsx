@@ -31,13 +31,11 @@ function TopBar(props) {
                     </div>
                 </div>
                 {click &&
-                    <Fade duration={1000}>
-                        <div 
-                            onClick={()=>{setClick(false)}} 
-                            className='pb-4 space-y-4 md:hidden bg-neutral-700'>
-                                {props.children}
-                        </div>                
-                    </Fade>
+                    <div 
+                        onClick={()=>{setClick(false)}} 
+                        className='pb-4 space-y-4 md:hidden'>
+                            {props.children}
+                    </div>                
                 }
             </div>    
         </div>
