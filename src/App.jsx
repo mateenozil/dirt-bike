@@ -1,6 +1,7 @@
 import TopBar from './Components/TopBar/TopBar'
 import Menu from './Components/Menu/Menu'
-import { GrUser, GrCart } from "react-icons/gr";
+import Footer from './Components/Footer/Footer'
+import { GrUser, GrCart, GrFacebook, GrInstagram, GrMail } from "react-icons/gr";
 import { Routes, Route } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
 import Home from './Pages/Home';
@@ -38,6 +39,17 @@ function App() {
       </Routes>
 
       {/*footer*/}
+      <Footer>
+        <div className='text-center'>
+          <p>Dirt Bike</p>
+          <div className='flex justify-center text-light-50 space-x-2'>
+            <GrFacebook/>
+            <GrInstagram/>
+            <GrMail/>
+          </div>
+          <p>Copyright © 2022</p>     
+        </div>
+      </Footer>
     </div>
   )
 }
