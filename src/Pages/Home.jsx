@@ -51,7 +51,7 @@ function Hero() {
 function Promo(){
 	const data = BikesData
     return(
-        <div className='py-8 space-y-8 mx-auto text-center'>
+        <div className='py-20 space-y-8 mx-auto text-center'>
             <p className="text-3xl text-gray-600 font-bold">Top Seller</p>
 			<CardPanel>
 				{data.map(
@@ -72,7 +72,7 @@ function Promo(){
 function Dealer(){
 	const data = DealerData
     return(
-        <div className='py-8 space-y-8 mx-auto text-center bg-light-200'>
+        <div className='py-20 space-y-8 mx-auto text-center bg-light-200'>
             <div className="text-3xl text-gray-600 font-bold">
 				Authorized Dealer
 			</div>
@@ -95,7 +95,7 @@ function Dealer(){
 
 function About(){
 	return(
-		<div className="py-8 text-center text-light-200 bg-dark-200">
+		<div className="py-20 text-center text-light-200 bg-dark-200">
 			<div className='space-y-8 px-8 max-w-screen-lg mx-auto'>
 				<div className="text-3xl">
 					About Us
