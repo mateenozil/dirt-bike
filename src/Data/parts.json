@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Air Filter",
-    "description": "High-performance air filter for improved engine performance.",
+    "description": "High air filter for improved engine performance.",
     "price": 25.99,
     "Category": "Parts",
     "image": "airfilter.jpg"
